@@ -26,25 +26,38 @@ html, body{
     position: relative;
     width: 100%;
     height: 10%;
-    background-color: red;
 }
 
 .page1 .nav .navTop{
-    width: 100%;
+    width: 52%;
     height: 50%;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 38px;
+    white-space: nowrap;
+    font-size: 10px;
+    font-weight: 100;
+    transform: translate(-50%);
+    left: 50%;
+    color: white;
+}
+
+.page1 .nav .navTop i{
+    font-size: 15px;
 }
 
 .page1 .nav .navBottom{
-    width: 100%;
+    width: 52%;
     height: 50%;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: red;
+    transform: translate(-50%);
+    left: 50%;
 }
 
 .page2{
